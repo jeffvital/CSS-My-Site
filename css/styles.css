@@ -7,25 +7,17 @@ h1 {
 }
 
 .top-container {
-  background-color: #F9CEEE;
-  border: solid 10px;
-  height: 200px;
-  padding: 20px;
-  width: 200px;
+  background-color: #E4F9F5;
 }
 
 .middle-container {
-  background-color: #F9F3EE;
-  border: solid 20px;
+  background-color: #30E3CA;
   height: 200px;
-  margin-left: 260px;
   width: 200px;
 }
 
 .bottom-container {
-  background-color: #CCF3EE;
-  border: solid 10px;
+  background-color: #11999E;
   height: 200px;
-  margin-left: 500px;
   width: 200px;
 }

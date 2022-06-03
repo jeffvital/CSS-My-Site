@@ -1,26 +1,47 @@
 body {
+  font-family: "Merriweather", serif;
   margin: 0;
   text-align: center;
 }
 
 h1 {
-  position: relative;
-  top: 100px;
-  margin: 0;
+  font-family: "Sacramento", cursive;
+  width: 20%;
+  margin: 0 auto;
 }
 
-p {
-  position: relative;
-  top: 100px;
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
 }
 
 .top-container {
+  position: relative;
+  padding-top: 100px;
   background-color: #e4f9f5;
 }
 
-.mountain {
-  margin-top: 100px;
+/*########## CLOUDS #########*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* ######### SQUARES ########*/
 
 .middle-container {
   background-color: #30e3ca;
@@ -32,19 +53,4 @@ p {
   background-color: #11999e;
   height: 200px;
   width: 200px;
-}
-
-.pro {
-  text-decoration: underline;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 80px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  margin-top: 100px;
 }

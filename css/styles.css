@@ -40,17 +40,3 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
-
-/* ######### SQUARES ########*/
-
-.middle-container {
-  background-color: #30e3ca;
-  height: 200px;
-  width: 200px;
-}
-
-.bottom-container {
-  background-color: #11999e;
-  height: 200px;
-  width: 200px;
-}

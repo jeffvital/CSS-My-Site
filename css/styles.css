@@ -1,21 +1,43 @@
 body {
   font-family: "Merriweather", serif;
+  font-size: 100%;
   margin: 0;
   text-align: center;
 }
 
 h1 {
+  color: #66bfbf;
   font-family: "Sacramento", cursive;
-  width: 20%;
+  font-size: 4rem;
+  line-height: 2;
   margin: 0 auto;
 }
 
 h2 {
+  color: #66bfbf;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 h3 {
+  color: #11999e;
+
   font-family: "Montserrat", sans-serif;
+}
+
+/*######## SKILLS ROWS #######*/
+
+.skills {
+  width: 50%;
+}
+
+.skill-row {
+  width: 50%;
+}
+
+a {
+  color: #66bfbf;
 }
 
 .pro {

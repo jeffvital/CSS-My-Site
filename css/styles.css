@@ -42,8 +42,13 @@ p {
 }
 
 a {
-  color: #66bfbf;
+  color: #11999e;
+  font-family: "Monteserrat", sans-serif;
   text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 .contact-message {
@@ -125,12 +130,13 @@ a {
 .footer-link {
   color: #11999e;
   padding: 15px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
-.paragraph-footer {
+.copyright {
   color: #eaf6f6;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  padding: 10px 0;
 }
 /*=====================*/
 
